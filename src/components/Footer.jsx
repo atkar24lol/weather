@@ -4,7 +4,8 @@ import module from "./scss-modules/Footer.module.scss";
 function Footer(props) {
   return (
     <div className={module.footer}>
-      <p>Это футер</p>
+      <div className={module.logo}></div>
+      <p>atkar24lol - 2023</p>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import module from "./scss-modules/Header.module.scss";
 function Header(props) {
   return (
     <div className={module.header}>
-      <ul>
+      {/* <ul>
         <li>
           <a href="#">Main</a>
         </li>
@@ -17,7 +17,9 @@ function Header(props) {
         <li>
           <a href="#">Page4</a>
         </li>
-      </ul>
+      </ul> */}
+
+      <h1> weather</h1>
     </div>
   );
 }
