@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+height: 1000px;
+  background: url(./assets/1645087961_4-phonoteka-org-p-zadnii-fon-dlya-arta-5.jpg);
+  backdrop-filter: blur(10px);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
