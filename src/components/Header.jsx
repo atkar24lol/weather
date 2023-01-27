@@ -1,25 +1,24 @@
 import React from "react";
-import module from "./scss-modules/Header.module.scss";
+import module from "./Header.module.scss";
+import { Route, Routes, Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <div className={module.header}>
-      {/* <ul>
+      <ul>
         <li>
-          <a href="#">Main</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Page2</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#">Page3</a>
+          <Link to='/aa'>Page3</Link>
         </li>
         <li>
-          <a href="#">Page4</a>
+          <Link to='/44'>Page4</Link>
         </li>
-      </ul> */}
-
-      <h1> weather</h1>
+      </ul>
     </div>
   );
 }
